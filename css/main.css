@@ -46,22 +46,9 @@ a {
     margin: 0px auto;
 }
 
-/* Header */
-
-#header-wrapper {
-    overflow: hidden;
-}
-#header {
-    height: 150px;
-    margin: 0 auto;
-    padding: 0px 0px;
-}
-
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -100,24 +87,12 @@ a {
 
 /* Menu */
 
-#menu {
-    float: right;
-    width: 500px;
-    height: 90px;
-    margin: 0 auto;
-    padding: 0;
-}
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
     line-height: normal;
-}
-
-#menu li {
-    float: left;
 }
 
 #menu a {
@@ -154,11 +129,6 @@ a {
 
 /* Content */
 
-#content {
-    float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
-}
 
 .post {
     overflow: hidden;
@@ -233,7 +203,6 @@ a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
     width: 270px;
     margin: 0px;
     padding: 30px 0px 0px 0px;
@@ -295,66 +264,6 @@ a {
 
 #sidebar a:hover {
     text-decoration: underline;
-}
-
-/* Three Column Footer Content */
-
-#footer-content {
-    overflow: hidden;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
 }
 
 /* Footer */
