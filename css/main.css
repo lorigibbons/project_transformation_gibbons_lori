@@ -136,6 +136,11 @@ a {
     padding: 30px 0px;
 }
 
+/*Header*/
+header {
+    margin: auto;
+}
+
 /* Content */
 
 
@@ -306,4 +311,8 @@ a {
 #banner img {
     width: 100%;
     height: auto;
+}
+
+.site-container {
+    max-width: 1200px;
 }
