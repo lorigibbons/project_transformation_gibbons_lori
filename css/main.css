@@ -334,3 +334,14 @@ header {
 .site-container {
     max-width: 1200px;
 }
+
+@media (min-width: 900px) {
+    #content {
+        float: right;
+        width: calc(100% / 3 * 2);
+    }
+    #sidebar {
+        float: left;
+        width: calc(100% / 3 * 1);
+    }
+}
