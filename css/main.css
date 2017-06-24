@@ -135,6 +135,18 @@ a {
     }
 }
 
+@media all and (min-width: 850px) {
+    nav li {
+        width: calc(100% / 3);
+    }
+}
+
+@media all and (min-width: 1200px) {
+    nav li {
+        width: calc(100% / 5);
+    }
+}
+
 /* Page */
 
 #page {
